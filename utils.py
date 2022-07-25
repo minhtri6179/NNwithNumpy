@@ -156,6 +156,7 @@ class NeuralNet:
                 f'Epoch {epoch+1}/{self.epochs}: train err: {err:.2f}%, val err: {val_err:.2f}% - accuency: {acc:.2f}%')
         print('----------------Done--------------------')
         self.Ws = Ws
+        np.savetxt('Ws.out', Ws, fmt='%s')
         return Ws
 
     def predict(self, x, verbose=True):

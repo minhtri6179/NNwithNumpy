@@ -6,7 +6,7 @@ Build the neural network with the following `Make Your Own Neural Network` book 
 
 The Architecture:
 
-![image](https://github.com/minhtri6179/NNwithNumpy/blob/master/images.arch.jpeg)
+![image](https://github.com/minhtri6179/NNwithNumpy/blob/master/images/arch.jpeg)
 
 We will build difference neural networks with any architectures we want. We can change the number of nodes each layers and the number of layer of networks.
 # I. Packages
